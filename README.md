@@ -9,7 +9,7 @@ To execute project use the command: `java -cp .:/../lib/jfxrt.jar com.orangomang
 
 ### How to start cps tester
 
-Click in the black rectangle as fast as possible, after 5 seconds the program will tell you how many clicks you made in one second. Timer will start when you started clicking
+Click in the black rectangle as fast as possible, after 5 seconds the program will tell you how many clicks you made in one second. Timer will start when you start clicking
 
 ### Output screenshot
 
