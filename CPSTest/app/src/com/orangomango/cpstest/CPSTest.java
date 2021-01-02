@@ -28,7 +28,7 @@ public class CPSTest extends Application {
     public static double cps = 0.0;
     public static NumberFormat formatter = new DecimalFormat("##.##");
     public static Label cpslabel = new Label("cps: " + cps + "/s");
-    public static volatile Label timer = new Label("Timer: 0.0");
+    public static Label timer = new Label("Timer: 0.0");
     public static long stime = 0l, etime = 0l;
 
     public static void update() {
@@ -74,7 +74,7 @@ public class CPSTest extends Application {
         g.setLineWidth(5.0);
         g.strokeRect(0, 0, 300, 300);
 
-        Scene scene = new Scene(root, 500, 300);
+        Scene scene = new Scene(root, 550, 300);
         primaryStage.setScene(scene);
 
         Thread t = new Thread(() -> monitor());
