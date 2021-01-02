@@ -1,11 +1,9 @@
 # CPSTest
 ## com.orangomango.cpstest
-### CPS tester made with java-javafx <br>
-Run `exe`, or the `.jar` file in the `bin` directory with the command: `java -jar bin/CPSTest.jar`
 
-### Execute project with `java` command
+### Execute project
 
-To execute project use the command: `java -cp .:/../lib/jfxrt.jar com.orangomango.cpstest.CPSTest` in the `bin/` directory
+To execute project use the `.sh` file in the `bin/` directory with the command `./run.sh`.
 
 ### How to start cps tester
 
